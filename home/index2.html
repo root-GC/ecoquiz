@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoQuiz</title>
+  <link rel="stylesheet" href="../assets/styles/home.css">
+
+  <script>
+    // Função para iniciar a contagem regressiva automaticamente ao carregar a página
+    window.onload = function () {
+      let timeLeft = 10; // Tempo inicial em segundos
+      const footerElement = document.getElementById('rodape'); // Elemento onde será mostrado o tempo
+      footerElement.innerHTML = `<p>Tempo restante: ${timeLeft}</p>`; // Mostra o tempo inicial
+
+      // Loop de contagem regressiva
+      const countdownInterval = setInterval(() => {
+        timeLeft--; // Decrementa o tempo
+
+        // Atualiza o rodapé com o tempo restante
+        footerElement.innerHTML = `<p>Tempo restante: ${timeLeft}</p>`;
+
+        // Quando o tempo acabar
+        if (timeLeft === 0) {
+          clearInterval(countdownInterval); // Para a contagem
+          alert("Tempo acabou!"); // Mostra a mensagem
+        }
+      }, 1000); // Intervalo de 1 segundo (1000 ms)
+    };
+
+    // Função paralela ao botão "Jogar" que não interfere na contagem
+    function jogar() {
+      alert("Iniciando o jogo!"); // Ação do botão "Jogar"
+    }
+  </script>
+</head>
+<body>
+  <header id="header">
+    <div id="conteiner">
+      <ul id="menu">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#">CONTACTO</a></li>
+        <li><a href="#">RANKING</a></li>
+      </ul>
+    </div>
+  </header>
+  <section id="section">
+    <div class="conteiner2">
+      <div class="box1">
+        <div id="img_lamp">
+          <img src="../assets/images/lamp.svg" alt="lampada Florescente">
+        </div>
+        <div id="img_tomada">
+          <img src="../assets/images/planta.svg" alt="Tomada">
+        </div>
+        <div id="img_solar">
+          <img src="../assets/images/Solar.svg" alt="Painel Solar">
+        </div>
+      </div>
+      <div class="box2">
+        <div id="img_logo">
+          <img src="../assets/images/lololol.svg" alt="Logotipo">
+        </div>
+        <div id="jogar">
+          <p id="p_jogar">Jogar</p>
+        </div>
+      </div>
+      <div class="box3"">
+        <div id="img_lamp2">
+          <img src="../assets/images/lamp2.svg" alt="lampada Florescente">
+        </div>
+        <div id="img_eolic">
+          <img src="../assets/images/eolic.svg" alt="Turbinas eolicas">
+        </div>
+        <div id="img_factory">
+          <img src="../assets/images/fabrica.svg" alt="Fabrica">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div id="rodape">
+        <p>Rodape</p>
+    </div>
+  </footer>
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>

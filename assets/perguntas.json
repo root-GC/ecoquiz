@@ -1,0 +1,70 @@
+{
+    "section_one":[
+        {
+            "pergunta": "Devemos regar as plantas logo depois de uma grande chuva?",
+            "respostas": ["Sim, as plantas sempre precisam de mais água.", "Não, a chuva já forneceu o suficiente", "Nenhuma das alternativas "],
+            "correcta": 1,
+            "acertou":"Regar as plantas logo após uma chuva é um desperdício de água, pois o solo já está suficientemente irrigado.",
+            "errou":"Regar as plantas logo após uma chuva é desnecessário, já que o solo já está húmido. Poupe água e deixe a natureza fazer a sua parte."
+        },
+
+        {
+            "pergunta": "E na hora de lavar a loiça, o que é correcto fazer?",
+            "respostas": ["Deixar a torneira aberta o tempo todo.", "Ensaboar tudo primeiro e depois enxaguar.", "Lavar peça por peça, com a torneira aberta."],
+            "correcta": 1,
+            "acertou":"Muito bem!Ensaboar toda a loiça antes de enxaguar ajuda a economizar muita água.",
+            "errou":"Deixar a torneira aberta o tempo todo ou lavar peça por peça desperdiça muita água.Ensaboar tudo antes de enxaguar é a forma mais eficiente de lavar a loiça!"
+        }
+
+    ],
+
+    "section_two":[
+        {
+            "pergunta": "Num dia de muito calor, depois de acabar uma garrafa de água bem gelada, onde você deveria jogar a garrafa?",
+            "respostas":["/QUIZAPP/assets/images/azul.png", "/QUIZAPP/assets/images/amarelo.png", "/QUIZAPP/assets/images/verde.png", "NENHUMA DAS OPÇÕES ACIMA!"],
+            "correcta":1,
+            "acertou":"Muito bem!A garrafa de plástico deve ser descartada na lixeira amarela, que é destinada a plásticos e metais, não se esqueça de amassar a garrafa para ocupar menos espaço." ,
+            "errou":"A lixeira correcta para plásticos, com garrafas de água, é a amarela. Separar correctamente o lixo é fundamental para que ele seja reciclado e não acabe poluindo o meio ambiente."
+        },
+
+        {
+            "pergunta": "Onde devemos descartar restos de comida, cascas de frutas e folhas secas?",
+            "respostas":["/QUIZAPP/assets/images/vermelho.png", "/QUIZAPP/assets/images/marrom.png", "/QUIZAPP/assets/images/verde.png", "NENHUMA DAS OPÇÕES ACIMA!"],
+            "correcta":1,
+            "acertou":"Muito bem!Restos de comida e materiais orgânicos devem ser descartados na lixeira marrom, pois podem ser decompostos para se transformarem em adubo natural." ,
+            "errou":"Os resíduos orgânicos, como restos de comida, dêem ser descartados na lixeira marrom.Esses materiais podem ser decompostos, o que ajuda a reduzir o volume de lixo e ainda gera adubo para as plantas."
+        },
+
+        {
+            "pergunta": "E o vidro? Onde devo jogar garrafas e potes de vidro quebrados?",
+            "respostas":["/QUIZAPP/assets/images/verde.png", "/QUIZAPP/assets/images/azul.png", "/QUIZAPP/assets/images/vermelho.png", "NENHUMA DAS OPÇÕES ACIMA!"],
+            "correcta":0,
+            "acertou":"Muito bem! O vidro deve ser descartado na lixeira verde, além de ser 100% reciclável, ele pode ser reciclado infinitas vezes sem perder sua qualidade." ,
+            "errou":"O vidro deve ser descartado na lixeira verde. Ele é completamente reciclável e pode ser transformado em novos produtos sem perda de qualidade. "
+        }
+    ],
+
+
+    "section_three":[
+
+        {
+            "pergunta": "Sabia que painéis solares podem ser instalados em áreas remotas e ajudar a fornecer energia eléctrica para locais sem acesso?",
+            "respostas": ["Sim, e podem até luminar uma casa à noite!", "Não, eles só funcionam em áreas urbanas.", "Só durante o dia."],
+            "correcta": 0,
+            "acertou": "Muito bem!Os painéis solares podem ser instalados em áreas insoladas e fornecer electricidade mesmo durante a noite, armazenando em baterias durante o dia.Essa tecnologia tem transformado a vida em comunidades sem acesso à rede eléctrica. ",
+            "errou":"Painéis solares funcionam em áreas urbanas e remotas, e podem iluminar casas à noite graças às baterias que armazenam energia gerada durante o dia. Isso torna essa tecnologia essencial em zonas de difícil acesso."
+        },
+
+        {
+            "pergunta": "Como podemos aproveitar o vento para gerar energia eléctrica?",
+            "respostas": ["Instalando turbinas eólicas em áreas com ventos fortes", "Colocando ventiladores nas casas","Queimando carvão para aumentar o vento"],
+            "correcta": 0,
+            "acertou": "Muito bem!As turbinas eólicas convertem a força do vento em electricidade, e são uma das principais formas de geração de energia renovável em várias partes do mundo.O vento é uma fonte inesgotável de energia!",
+            "errou":"A forma correcta de aproveitar o vento é instalando turbinas eólicas em áreas de ventos constantes e fortes.Colocar ventiladores ou queimar carvão não vai ajudar, e o vento é uma fonte limpa e renovável."
+        }
+
+       
+
+    ]
+
+}
